@@ -1,1 +1,18 @@
-GET http://127.0.0.1:8000
+POST http://192.168.0.18:8000/switch/green
+###
+POST http://192.168.0.18:8000/switch/red
+###
+POST http://192.168.0.18:8000/switch/blue
+
+###
+POST http://192.168.0.18:8000/set/red?value=125
+
+###
+POST http://192.168.0.18:8000/turnoff
+###
+
+POST http://192.168.0.18:8000/rgb?r=100&g=255&b=125
+###
+
+GET http://192.168.0.18:8000/rgb
+ 
